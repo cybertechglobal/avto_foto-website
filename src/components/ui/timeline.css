@@ -1,0 +1,153 @@
+.vertical-timeline {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.vertical-timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: var(--color-brand-primary);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  /* margin-left: -3px; */
+}
+
+.dots::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: var(--color-brand-primary);
+  /* top: 0; */
+  /* bottom: 0; */
+  left: 50%;
+  transform: translateX(-40%);
+  border-radius: 50%;
+}
+
+.dots::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: var(--color-brand-primary);
+  /* top: 0; */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-40%);
+  border-radius: 50%;
+}
+
+.step {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.step-number {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: var(
+    --color-brand-primary
+  ); /* You can change the color here */
+  color: var(--color-dark-secondary);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.step p {
+  color: var(--color-text-primary, #1b1c1c);
+  font-family: "Montserrat", sans-serif;;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75rem;
+  letter-spacing: 0.0225rem;
+  margin-bottom: 1rem;
+}
+
+.step span {
+  color: var(--color-text-primary, #1b1c1c);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 1.625rem;
+  letter-spacing: 0.02rem;
+}
+
+.timeline-image {
+  max-width: 285px;
+}
+
+.timeline-text {
+  max-width: 295px;
+}
+
+@media screen and (max-width: 991px) {
+  .vertical-timeline {
+    display: flex;
+    width: 1200px;
+    gap: 3rem;
+  }
+
+  .timeline-container {
+    overflow: auto;
+  }
+
+  .vertical-timeline::after {
+    height: 2px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    width: auto;
+  }
+
+  .dots::before {
+    top: 50%;
+    left: 0;
+    transform: translateY(-3px);
+  }
+
+  .dots::after {
+    right: 0;
+    left: auto;
+    top: 50%;
+    transform: translateY(-3px);
+  }
+
+  .step {
+    flex-direction: column;
+    width: 300px;
+    gap: 10rem;
+    margin: 0;
+  }
+
+  .step-number {
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .timeline-image,
+  .timeline-text {
+    max-width: initial;
+  }
+
+  .step-content {
+    min-height: 200px;
+  }
+}

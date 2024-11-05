@@ -1,0 +1,55 @@
+{
+  "global": {
+    "aiFeatures": "AI-powered features",
+    "aiFeaturesText": "АвтоФото has all the features that a successful dealership needs to build a strong brand and sell more vehicles faster.",
+    "easyToUse": "Easy-to-use",
+    "easyToUseText": "Built with simplicity in mind, АвтоФото offers an intuitive interface and user-friendly tools making it perfect for all skill levels.",
+    "allInOne": "All-in-one solutions",
+    "allInOneText": "Showcase your inventory just like a professional. Meet or exceed manufacturers’ photo brand guidelines.",
+    "virtualShowroom": "Virtual showroom",
+    "virtualShowroomText": "Select a standard backdrop or have us create a unique virtual showroom that is bespoke to your branding specifications.",
+    "mobileOptimised": "Mobile optimised",
+    "mobileOptimisedText": "Catch 360 is mobile-optimised which ensures an immersive experience on mobile devices like smartphones and tablets.",
+    "automaticDataSync": "Automatic data sync",
+    "automaticDataSyncText": " Catch 360 connects to market-leading dealer management systems and online marketplaces for quick and easy data transfer.",
+    "catchPhoto": "АвтоФото",
+    "catchCreator": "Catch Creator",
+    "catchPanel": "Catch Panel",
+    "catchConnect": "Catch Connect",
+    "catch360": "Catch 360"
+  },
+  "360": {
+    "catch360is": "Catch 360 is the",
+    "smartSolution": "smart solution",
+    "forAutomotive": "for automotive dealerships",
+    "videoText1": "Turn static images into a powerful",
+    "videoText2": "sales tool.",
+    "videoSubtext": "Discover how easy it is to create a seamless 360° view that’s sure to get your vehicles on the buyer’s shortlist."
+  },
+  "moreSolutions": {
+    "solutionsText1": "Explore More",
+    "solutionsText2": "Catch Solutions",
+    "catchPhotoText": "Advanced image capturing and editing for impressive results.",
+    "catchCreatorText": "Create unique backdrops that put the vehicle front and centre.",
+    "catchPanelText": "Easily manage, view and download all images from anywhere, anytime.",
+    "catchConnecttext": "Automatically transfer images to a DMS and online marketplaces.",
+    "catch360Text": "Turn static images into an interactive showroom experience."
+  },
+  "aiSection": {
+    "catchSubtitle": "Simplicity meets genius that redefines picture perfect.",
+    "catchDesc": "The АвтоФото app turns any smartphone into a powerful image capture and editing tool specifically designed to accelerate speed-to-sale at automotive dealerships.",
+    "creatorSubtitle": "Maximise the selling power of your photos.",
+    "creatorDesc": "Create backdrops that put the vehicle front and centre. Elevate your brand, captivate potential buyers and achieve stunning visuals that demand attention.",
+    "panelSubtitle": "Catch Panel is the epitome of practicality.",
+    "panelDesc": "Images captured in the АвтоФото app are automatically saved to the Catch Panel. It provides batch image processing and management.",
+    "connectSubtitle": "Staying well connected has never been easier.",
+    "connectDesc": "Catch Connect makes it possible for АвтоФото to transfer image files to leading dealer management systems (DMS) and online marketplaces.",
+    "title1": "The leading ",
+    "title2": " AI-powered",
+    "title3": "photography and editing app for automotive dealerships"
+  },
+  "autopilotSection": {
+    "brandedCollage": "Branded Collage",
+    "brandedCollageDesc": "The perfect hero shot for any vehicle detail page (VDP). The collage is created automatically and stored as a separate image after processing"
+  }
+}

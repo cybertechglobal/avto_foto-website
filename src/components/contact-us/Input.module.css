@@ -1,0 +1,45 @@
+.input {
+  background: #ffffff;
+  border-radius: 150px;
+  border: 1px solid var(--color-gray);
+  background: var(--color-dark-primary, #f6f6f6);
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  gap: .6rem;
+}
+
+input, textarea {
+  background-color: transparent;
+  color: var(--color-text-primary);
+  border: none;
+  padding: 15px 25px;
+  padding-left: 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.input:disabled {
+  background-color: var(--color-gray);
+  opacity: 0.8;
+}
+
+.input__error {
+  border: 1px solid var(--color-ui-danger) !important;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  box-shadow: var(--color-dark-primary) 0px 0px 0px 40px inset !important;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.helperText__error {
+  margin-left: 10px !important;
+  color: var(--color-ui-danger);
+  min-height: 24px;
+  font-size: 0.8rem;
+}
