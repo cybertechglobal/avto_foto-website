@@ -8,6 +8,7 @@ import QnASection from "../components/QnA-section/QnASection"
 import ExploreMore from "../components/explore-more-section/ExploreMore"
 import SiteContainer from "../components/layout/SiteContainer"
 import { graphql } from "gatsby"
+import Clients from "../components/brrm-and-clients/BrrmAndClients"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
       <HeroSection />
       <AiSection />
     </SiteContainer>
+    <Clients/>
     <WhyCatch />
     <SiteContainer>
       <QnASection />

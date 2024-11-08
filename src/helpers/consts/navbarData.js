@@ -86,4 +86,8 @@ export const links = [
     text: "nav.contact",
     url: "/contact-us",
   },
+  {
+    text: "АвтоФото Панель",
+    url: "https://xn--80aksgi6f.xn--80ae0baavco.xn--p1ai/login",
+  },
 ]

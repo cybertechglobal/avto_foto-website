@@ -1425,3 +1425,24 @@ img {
   justify-content: center;
   margin: auto;
 }
+
+.clientsContainer .row {
+  max-width: 1440px;
+  padding: 20px 50px;
+  margin: auto;
+}
+
+.client-logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.client-logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.client-logo:hover {
+  transform: scale(1.1);
+}

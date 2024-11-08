@@ -46,7 +46,7 @@ const ClippingCard = () => {
           flexBasis: "100%",
         }}
       >
-        <HeadText className="bold-font">{t("clipping.title")}</HeadText>
+        <HeadText className="bold-font"><span className="color-primary color-gradient"> {t("clipping.title1")} </span> {t("clipping.title2")}</HeadText>
         <Subtext>{t("clipping.subtextHero")}</Subtext>
         <Button
           type="primary"

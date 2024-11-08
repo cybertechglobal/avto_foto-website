@@ -13,6 +13,10 @@ const DesktopNav = ({ links }) => {
 
   const { t } = useTranslation()
 
+  const isExternalLink = (url) => {
+    return /^(https?:\/\/)/.test(url) // Check if the URL starts with http:// or https://
+  }
+
   return (
     <ul className="nav-links">
       {links.map((link, index) => (
@@ -30,19 +34,32 @@ const DesktopNav = ({ links }) => {
                   <div className="content">
                     <div className="row" style={{ flex: "2" }}>
                       <ul className="mega-links">
-                        {link.children.links.map((link, index) => (
+                        {link.children.links.map((childLink, childIndex) => (
                           <div
-                            key={index}
+                            key={childIndex}
                             className={`row-container col col-sm-12 col-xs-24`}
                           >
-                            <Link
-                              to={link?.url}
-                              className="nav-child-link desktop-hover-links"
-                            >
-                              <h3>{t(link.text)}</h3>
-                              <p>{t(link.description)}</p>
-                              <div className="divider"></div>
-                            </Link>
+                            {isExternalLink(childLink?.url) ? (
+                              <a
+                                href={childLink?.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-child-link desktop-hover-links"
+                              >
+                                <h3>{t(childLink.text)}</h3>
+                                <p>{t(childLink.description)}</p>
+                                <div className="divider"></div>
+                              </a>
+                            ) : (
+                              <Link
+                                to={childLink?.url}
+                                className="nav-child-link desktop-hover-links"
+                              >
+                                <h3>{t(childLink.text)}</h3>
+                                <p>{t(childLink.description)}</p>
+                                <div className="divider"></div>
+                              </Link>
+                            )}
                           </div>
                         ))}
                       </ul>
@@ -63,6 +80,15 @@ const DesktopNav = ({ links }) => {
                   </div>
                 </div>
               </>
+            ) : isExternalLink(link.url) ? (
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link-item"
+              >
+                {t(link.text)}
+              </a>
             ) : (
               <Link className="nav-link-item" to={link.url}>
                 {t(link.text)}
