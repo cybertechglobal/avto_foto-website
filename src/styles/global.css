@@ -167,7 +167,7 @@ a.link-text:hover::before {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 250;
+  font-weight: 400;
   line-height: 1.625rem; /* 162.5% */
   letter-spacing: 0.02rem;
 }
@@ -541,7 +541,7 @@ img {
 
 .circle-subtext {
   font-size: 1.125rem;
-  font-weight: 250;
+  font-weight: 400;
   line-height: 1.75rem;
   letter-spacing: 0.0225rem;
 }
@@ -693,7 +693,7 @@ img {
 .footer-links li a {
   font-size: 0.875rem;
   font-style: normal;
-  font-weight: 250;
+  font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.0175rem;
   text-decoration: none;
