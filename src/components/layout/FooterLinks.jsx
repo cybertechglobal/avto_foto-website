@@ -152,9 +152,6 @@ const FooterLinks = () => {
                 <div className="border-line"></div>
                 <ul className="footer-links">
                   <li>
-                    <Link to="/gpdr">GPDR</Link>
-                  </li>
-                  <li>
                     <Link to="/privacy-notice">
                       {t("global.privacyNotice")}
                     </Link>
@@ -184,11 +181,19 @@ const FooterLinks = () => {
                       className="color-primary"
                       icon={faEnvelope}
                     />
-                    info@автофото.рф
+                    Info@avtofoto.com
+                  </li>
+                  <li style={{ cursor: "initial" }} className="info">
+                    <FontAwesomeIcon
+                      className="color-primary"
+                      icon={faEnvelope}
+                    />
+                    support@avtofoto.com
                   </li>
                   <li style={{ cursor: "initial" }} className="info">
                     <FontAwesomeIcon className="color-primary" icon={faPhone} />
-                    + 7 495 999 999
+                    + 79255451730
+                    <FontAwesomeIcon/>
                   </li>
                 </ul>
               </div>

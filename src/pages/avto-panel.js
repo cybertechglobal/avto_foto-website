@@ -79,11 +79,6 @@ const CatchPanel = () => {
           title={
             <>
               {t("catchPanel.threeSectionTitle1")}
-
-              <span className="color-primary color-gradient">
-                {" "}
-                {t("catchPanel.threeSectionTitle2")}
-              </span>
             </>
           }
           image={

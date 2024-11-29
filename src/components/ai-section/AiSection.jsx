@@ -14,6 +14,7 @@ const links = [
     title: "global.catchPhoto",
     subtitle: "aiSection.catchSubtitle",
     description: "aiSection.catchDesc",
+    description2: "aiSection.catchDesc2",
     link: "/avto-photo",
     img: "mobiles.png",
   },
@@ -95,6 +96,7 @@ const AiSection = () => {
                   {t(item.subtitle)}
                 </HeadText>
                 <Subtext>{t(item.description)}</Subtext>
+                {item.description2 && <Subtext>{t(item.description2)}</Subtext>}
                 <div className="d-inline-flex">
                   <Link to={item.link} className="link-text color-primary">
                     {t("global.moreInfo")}

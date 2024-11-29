@@ -20,7 +20,7 @@ export const links = [
           description: "nav.catchCreatorDesc",
         },
         {
-          text: "ПОТРЯСАЮЩИЙ РЕЗУЛЬТАТ",
+          text: "АВТОФОТО ИНТЕГРАЦИЯ",
           url: "/avto-connect",
           description: "nav.catchConnectDesc",
         },

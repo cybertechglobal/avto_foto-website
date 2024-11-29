@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $headers .= 'X-Mailer: PHP/' . phpversion();
 
 
-    $to = 'info@автофото.рф';  
+    $to = 'Info@avtofoto.com';  
     $subject = 'Сontacting you from автофото.рф';
 
     if (mail($to, $subject, $emailBody, $headers, $email)) {

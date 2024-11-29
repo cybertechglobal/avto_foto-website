@@ -31,7 +31,7 @@ const Data = [
         alt="branding photo"
       />
     ),
-    text: "2D Photobox",
+    text: "2D фотобокс",
   },
   {
     img: (
@@ -41,7 +41,7 @@ const Data = [
         alt="branding photo"
       />
     ),
-    text: "3D Photobox (60°)",
+    text: "3D фотобокс (60°)",
   },
   {
     img: (
@@ -51,7 +51,7 @@ const Data = [
         alt="branding photo"
       />
     ),
-    text: "3D Photobox (45°)",
+    text: "3D фотобокс (45°)",
   },
 ]
 
