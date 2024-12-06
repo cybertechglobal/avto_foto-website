@@ -29,7 +29,7 @@ const Clients = () => {
               >
                 {t("brrm.title1")}
                 <span className="color-primary color-gradient">
-                  {` ${t("brrm.title2")}.`}
+                  {` ${t("brrm.title2")}`}
                 </span>
               </a>
             </Title>

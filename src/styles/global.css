@@ -159,7 +159,7 @@ a.link-text:hover::before {
   line-height: 2.8125rem; /* 112.5% */
   letter-spacing: 0.05rem;
   margin: 0;
-  word-break: break-word;
+  /*word-break: break-word;*/
 }
 
 .subtext {

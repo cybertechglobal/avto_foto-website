@@ -26,6 +26,7 @@ const AboutUs = () => {
               flexDirection: "column",
               gap: "1.7rem",
               flexBasis: "100%",
+              textAlign: "justify"
             }}
           >
             <HeadText className="bold-font">{t("aboutUs.title")}</HeadText>
@@ -58,7 +59,7 @@ const AboutUs = () => {
                       title="YouTube Video Player"
                       width={playerOptions.width}
                       height={playerOptions.height}
-                      src="https://www.youtube.com/embed/jRG6VvCYmao"
+                      src="https://www.youtube.com/embed/blKqk4qFCuY?si=BpLezvB8ZvgMTsVD&rel=0"
                       frameBorder="0"
                       allowFullScreen
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -54,7 +54,11 @@ const CatchConnect = () => {
               <HeadText className="bold-font">
                 {t("catchConnect.title")}
               </HeadText>
-              <Subtext>{t("catchConnect.subtext")}</Subtext>
+              <Subtext>
+                АвтоФото Интеграция позволяет подключаться к ведущим
+                <span style={{whiteSpace: 'nowrap'}}> IT-системам,</span> цифровым торговым площадкам, DMS для быстрой и
+                простой передачи данных.
+              </Subtext>
               <Button
                 type="primary"
                 className="p-0"
