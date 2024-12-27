@@ -26,7 +26,7 @@ const AboutUs = () => {
               flexDirection: "column",
               gap: "1.7rem",
               flexBasis: "100%",
-              textAlign: "justify"
+              textAlign: "justify",
             }}
           >
             <HeadText className="bold-font">{t("aboutUs.title")}</HeadText>
@@ -56,13 +56,14 @@ const AboutUs = () => {
                 <div className="video_container">
                   <div className="video_wrapper">
                     <iframe
-                      title="YouTube Video Player"
                       width={playerOptions.width}
                       height={playerOptions.height}
-                      src="https://www.youtube.com/embed/blKqk4qFCuY?si=BpLezvB8ZvgMTsVD&rel=0"
+                      src="https://rutube.ru/play/embed/9c82a464270c88598f9b09e3a3ad67fa/"
                       frameBorder="0"
+                      allow="clipboard-write; autoplay"
+                      webkitAllowFullScreen
+                      mozallowfullscreen
                       allowFullScreen
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     ></iframe>
                   </div>
                 </div>
