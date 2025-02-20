@@ -17,7 +17,7 @@ import InputField from "./Input"
 import { useTranslation, Link } from "gatsby-plugin-react-i18next"
 
 
-const API_PATH = 'http://xn--80ae0baavco.xn--p1ai/contactMail.php';
+const API_PATH = 'https://xn--80ae0baavco.xn--p1ai/contactMail.php';
 
 const ContactUsForm = () => {
   const { t } = useTranslation()
