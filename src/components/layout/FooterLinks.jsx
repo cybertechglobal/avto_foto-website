@@ -192,8 +192,7 @@ const FooterLinks = () => {
                   </li>
                   <li style={{ cursor: "initial" }} className="info">
                     <FontAwesomeIcon className="color-primary" icon={faPhone} />
-                    + 79255451730
-                    <FontAwesomeIcon/>
+                    +7 925 545 15 20
                   </li>
                 </ul>
               </div>
